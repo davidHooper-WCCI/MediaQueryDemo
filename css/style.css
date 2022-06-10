@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+header{
+    background-color: blue;
+}
+nav{
+    background-color: chartreuse;
+}
+nav a {
+    background-color: cadetblue;
+}
+
+@media screen and (min-width: 400px) {
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body{
+        background-color: pink;
+    }
+}
